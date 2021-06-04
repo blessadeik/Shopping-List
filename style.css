@@ -22,21 +22,20 @@ button{
     font-weight: bold;
     border-radius: 5px;
     padding:10px;
-    width: 20%;
 }
 input{
     font-size:1.2em;
     padding:10px;
     color: #9400D3;
-    width: 60%;
     outline:none;
 }
 .grid{
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width:60%;
+    width:80%;
 }
+
 li{
     font-size:1.2em;
     padding: 5px;
@@ -81,4 +80,12 @@ footer{
     font-size:1.3em;
     padding: 10px;
     text-align:center;
+}
+
+@media (max-width: 540px){
+    .grid{
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
 }
