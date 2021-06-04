@@ -4,7 +4,7 @@
 body{
     background-color:#E6E6FA;
     font-family: 'Padauk', sans-serif;
-    background: url('/shopping.jpg');
+    background: url('shopping.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,9 +19,7 @@ p{
     text-align: center;
     font-size:2em;
 }
-.list{
-    margin-top:15px;
-}
+
 button{
     background-color:#9400D3;
     color:#ffffff;
