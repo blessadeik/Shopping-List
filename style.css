@@ -1,15 +1,16 @@
 /* JavaScript + DOM Practice */
 
 @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
-
-
 body{
     background-color:#E6E6FA;
     font-family: 'Padauk', sans-serif;
+    background: url('/shopping.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     text-align:center;
-    font-weight: bold;
     font-size: 4em;
     color:#FFFFFF;
     text-shadow:2px 2px 4px #000000;
@@ -22,29 +23,21 @@ p{
     margin-top:15px;
 }
 button{
-    background-color: #9370DB;
+    background-color:#9400D3;
     color:#ffffff;
     font-size:1.5em;
     font-weight: bold;
-    outline: none;
     border-radius: 5px;
-    border: 1px;
     padding:15px;
     width: 20%;
-}
-button:hover{
-    transform: scale(1.2);
-    background-color:#9400D3;
-
 }
 input{
     font-size:1.5em;
     padding:15px;
     outline: none;
-    color: #EE82EE;
+    color: #9400D3;
     width: 60%;
 }
-
 .grid{
     margin: auto;
     display: grid;
@@ -52,34 +45,30 @@ input{
     gap: 20px;
     width:60%;
 }
-
 li{
     font-size:1.5em;
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #ffffff;
+    color:#9400D3;
     margin-bottom:5px;
     list-style-type:decimal;
 }
-
 li:hover{
     background-color:#9400D3;
     transform: scale(1.03);
     color: #ffffff;
     font-weight: bold;
 }
-
 .done{
     text-decoration: line-through;
 }
-
 li:hover .custBtn{
     color: #ffffff;
 }
 .custBtn{
     position:relative;
     display:block;
-    top:0px;
     float: right;
     right:12px;
     padding:1px;
@@ -87,7 +76,6 @@ li:hover .custBtn{
     color:#9400D3;
     width: 10px;
     height: 30px;
-    border:2px solid transparent;
     border-left: 0px;
     border-radius: 0 10px 10px 0;
     transition: all .2s;
@@ -99,4 +87,15 @@ li:hover .custBtn{
 }
 .custBtn:focus{
     outline:none;
+}
+footer{
+    margin:0;
+    bottom: 0;
+    position:fixed;
+    width:100%;
+    color: #fff;
+    font-weight: bold;
+    font-size:1.3em;
+    padding: 10px;
+    text-align:center;
 }
