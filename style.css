@@ -2,12 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 body{
-    background-color:#E6E6FA;
     font-family: 'Padauk', sans-serif;
-    background: url('shopping.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 h1{
     text-align:center;
