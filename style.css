@@ -1,0 +1,102 @@
+/* JavaScript + DOM Practice */
+
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+
+
+body{
+    background-color:#E6E6FA;
+    font-family: 'Padauk', sans-serif;
+}
+h1{
+    text-align:center;
+    font-weight: bold;
+    font-size: 4em;
+    color:#FFFFFF;
+    text-shadow:2px 2px 4px #000000;
+}
+p{
+    text-align: center;
+    font-size:2em;
+}
+.list{
+    margin-top:15px;
+}
+button{
+    background-color: #9370DB;
+    color:#ffffff;
+    font-size:1.5em;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+    border: 1px;
+    padding:15px;
+    width: 20%;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color:#9400D3;
+
+}
+input{
+    font-size:1.5em;
+    padding:15px;
+    outline: none;
+    color: #EE82EE;
+    width: 60%;
+}
+
+.grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width:60%;
+}
+
+li{
+    font-size:1.5em;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #ffffff;
+    margin-bottom:5px;
+    list-style-type:decimal;
+}
+
+li:hover{
+    background-color:#9400D3;
+    transform: scale(1.03);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+li:hover .custBtn{
+    color: #ffffff;
+}
+.custBtn{
+    position:relative;
+    display:block;
+    top:0px;
+    float: right;
+    right:12px;
+    padding:1px;
+    background:transparent;
+    color:#9400D3;
+    width: 10px;
+    height: 30px;
+    border:2px solid transparent;
+    border-left: 0px;
+    border-radius: 0 10px 10px 0;
+    transition: all .2s;
+}
+
+.custBtn:hover{
+    color: #ffffff;
+    cursor:pointer;
+}
+.custBtn:focus{
+    outline:none;
+}
