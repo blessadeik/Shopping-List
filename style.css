@@ -6,27 +6,27 @@ body{
 }
 h1{
     text-align:center;
-    font-size: 4em;
+    font-size: 3em;
     color:#FFFFFF;
     text-shadow:2px 2px 4px #000000;
 }
 p{
     text-align: center;
-    font-size:2em;
+    font-size:1.2em;
 }
 
 button{
     background-color:#9400D3;
     color:#ffffff;
-    font-size:1.5em;
+    font-size:1.2em;
     font-weight: bold;
     border-radius: 5px;
-    padding:15px;
+    padding:10px;
     width: 20%;
 }
 input{
-    font-size:1.5em;
-    padding:15px;
+    font-size:1.2em;
+    padding:10px;
     color: #9400D3;
     width: 60%;
     outline:none;
@@ -38,7 +38,7 @@ input{
     width:60%;
 }
 li{
-    font-size:1.5em;
+    font-size:1.2em;
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #ffffff;
@@ -69,8 +69,7 @@ li:hover .custBtn{
     color:#9400D3;
     width: 10px;
     height: 30px;
-    border-left: 0px;
-    border-radius: 0 10px 10px 0;
+    border:none;
     transition: all .2s;
 }
 footer{
